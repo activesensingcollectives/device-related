@@ -1,0 +1,36 @@
+---
+title: "Gain positions and Vclip of the Fireface 802"
+author: "Thejasvi Beleyur"
+date: "2025-05-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Estimating the gain at the knob markings and the Vclip of channels 9-12 instrument line
+
+```{r load-packages}
+
+data = read.csv('all_rms_measurements.csv')
+dB <- function(X){20*log10(X)}
+
+data$dBrms_remax <- dB(data$measured_rel_maxrms)
+data$dBVinrms <- dB(data$input_vrms)
+data$gain_position <- as.factor(data$gain_position)
+
+model1 <- lm(dBrms_remax ~ dBVinrms + gain_position , data=data)
+
+predict(model1)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

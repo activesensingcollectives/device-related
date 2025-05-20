@@ -1,0 +1,29 @@
+Characterising gain values across channels 9-12 on the Fireface 802
+-------------------------------------------------------------------
+
+* Using a dedicated Audio-mono-6 mm jack to BNC cable
+* Keysight INfiniiVision DSO-X-2004A wavegen function to generate 20 kHz sinusoids with varying Vpp
+	* Feeding the sinsoid voltage signal into the Instrument line of channels 9-12 with differing Vpp and gain positions on the knobs
+* Fireface 802 Serial number 23746770 (bar code number next to the analog inputs at the back)
+* Audio recording done with Audacity 3.3.2 on Windows 10 Laptop using Windows WASAPI and either 'Recording device' -> (Analog 9+10 Fireface 802) OR (Analog 11+12 Fireface 802)
+
+Position 0 is +6 dB defined
+position 1-3: TO BE checked
+position 4 : +30 dB defined
+position 5-7: TO BE checked
+position 8: +60 dB defined
+
+
+3 different types of recordings done: 
+> 50mVpp at +60 dB gain (pos 8)
+> 30mVpp from positions 4-8
+> 500Vpp from positions 0-4
+
+BAD data -  ff802_ch10_30mVpp_pos4-8_gain.wav DELETE
+
+Experiments 8/5/2025
+
+> 30mVpp from positions 4-8 - RE_TAKE
+> 50mVpp 
+> 300Vpp from positions 0-4
+> 300Vpp from positions 0-4
