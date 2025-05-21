@@ -9,4 +9,9 @@ The gain is NOT linear as you turn the knob clockwise, and it's not entirely cle
 
 For more on the Fireface 802 gain knob and the Vcliprms measurements - see [here](gainknob_fireface802/estimating_Vclip_and_gain.pdf)
 
+## G.R.A.S microphone sensitivity measurements
+We have various types of GRAS mics in the lab, and while they are generally flat - it's important to know *how* flat exactly they are across the frequency range we use. 
+
+The lab-grade sensitivity measurements are [here](gras_microphone_calibration_certificates/) - see the README for more context. 
+
 
