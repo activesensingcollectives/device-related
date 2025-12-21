@@ -22,10 +22,11 @@ On Windows - you should be able to see it if you open File Explorer and go to 'N
 * https://kb.synology.com/en-us/DSM/tutorial/What_can_I_do_if_my_Synology_NAS_does_not_show_up_in_Network_in_Windows_File_Explorer
 
 
-Linux access - to be documented. 
+Linux & Mac OS access
+~~~~~~~~~~~~~~~~~~~~~
+See here: https://kb.synology.com/en-us/DSM/tutorial/How_to_access_files_on_Synology_NAS_within_the_local_network_NFS
 
-
-
+Otherwise -- just connect physically to the NAS with a 
 
 
 - last updated 21 Dec. 2025, Thejasvi Beleyur
