@@ -1,0 +1,31 @@
+AcSeCoLab NAS
+=============
+The lab's network-attached storage is called 'AcSeCoLab' - and should appear on the Uni Konstanz LAN. 
+You will need you login details to enter and start using it. 
+
+
+Storage capacity & use
+~~~~~~~~~~~~~~~~~~~~~~
+Right now the AcSeCoLab NAS is a Synology DS223 device, and has a capacity of 40 TB. This is not a small amount - but at the same time, it's not the most giant NAS too. Anything of a reasonable size (100's of GBs to 1 TB) of long-term value is worth uploading here. 
+
+
+Login details 
+~~~~~~~~~~~~~
+Ask Thejasvi for your login and password details. 
+
+Right now the NAS has only been tested on the (cabled) LAN network. In principle, you should be able to access it via a VPN too - but this remains to be tested. 
+
+Accessing the NAS
+~~~~~~~~~~~~~~~~~
+On Windows - you should be able to see it if you open File Explorer and go to 'Network'. If the NAS is still not visible, then the following links below may help:
+
+* https://kb.synology.com/en-us/DSM/tutorial/What_can_I_do_if_my_Synology_NAS_does_not_show_up_in_Network_in_Windows_File_Explorer
+
+
+Linux access - to be documented. 
+
+
+
+
+
+- last updated 21 Dec. 2025, Thejasvi Beleyur
