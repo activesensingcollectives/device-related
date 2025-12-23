@@ -9,15 +9,23 @@ Storage capacity & use
 Right now the AcSeCoLab NAS is a Synology DS223 device, and has a capacity of 40 TB. This is not a small amount - but at the same time, it's not the most giant NAS too. Anything of a reasonable size (100's of GBs to 1 TB) of long-term value is worth uploading here. 
 
 
+Accessing the NAS
+~~~~~~~~~~~~~~~~~
+
 Login details 
 ~~~~~~~~~~~~~
 Ask Thejasvi for your login and password details. 
 
 Right now the NAS has only been tested on the (cabled) LAN network. In principle, you should be able to access it via a VPN too - but this remains to be tested. 
 
-Accessing the NAS
-~~~~~~~~~~~~~~~~~
-On Windows - you should be able to see it if you open File Explorer and go to 'Network'. If the NAS is still not visible, then the following links below may help:
+Through the web-interface (OS-agnostic)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ask Thejasvi or any one who already has access for the NAS's local IP address and type it into the a web-browser. The login portal for the NAS opens up and you can drag-and-drop the files into the NAS from your own computer. 
+
+
+On Windows
+~~~~~~~~~~
+You should be able to see it if you open File Explorer and go to 'Network'. If the NAS is still not visible, then the following links below may help:
 
 * https://kb.synology.com/en-us/DSM/tutorial/What_can_I_do_if_my_Synology_NAS_does_not_show_up_in_Network_in_Windows_File_Explorer
 
