@@ -7,3 +7,6 @@ There may be multiple microphones of the same model - so it's very important to 
 
 * GRAS 40 BF: free-field microphone. Pay attention to the serial numbers 
 	* For Sr. No. 69492: `26111 - 40BF#69492 (26111)-1.pdf`
+
+## Free-field corrections need to be applied!!
+The only valid measurements here are the actuator derived sensitivities. The free-field responses are obtained by adding the free-field corrections for each frequency at different incidence angles of the sound. Please look at the corresponding Excel sheets in this repo to see the correction curves. 
