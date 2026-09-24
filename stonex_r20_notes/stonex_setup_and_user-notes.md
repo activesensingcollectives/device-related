@@ -68,6 +68,7 @@ To correct any point data go to the main menu:
 	* Press the 'Rec' button to confirm and save the changes. 
 
 ## Stake-out
+Staking out is when the user goes 'back' to previously recorded points. The total station 'points' the user back to an existing point. Staking out helps to double-check that everything went as expected broadly. 
 In the Survey menu -> go to 'Stake out' -> 'Cartesian stake out'
 	* If you know your coordinates enter them. Remember NEZ corresponds to x,y,z
 	* If you only know the point-ID, choose it from the previous measurements -> go to List , choose the point -> OK -> ENT button
@@ -77,7 +78,9 @@ In the Survey menu -> go to 'Stake out' -> 'Cartesian stake out'
 	* Then press 'Dist' to perform a ranging measurement - and see how off the delta N,E,Z coordinates are. 
 	* Find the location that results in the best match
 
-## Stake out
+## Resection
+Resectioning allows you to move your total station while also maintaining the original coordinate system of a job. Resectioning is especially useful when there are a few points that are not in the line-of-sight. 
+
 *Note* : It is very important to remember that the R20 does NOT provide resection error-estimates, and so it is even more important that you point at all the backsight points properly!
 
 Set up & level your total station in a different place. 
