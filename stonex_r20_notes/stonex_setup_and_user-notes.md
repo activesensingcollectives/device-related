@@ -141,4 +141,4 @@ VA : vertical angle. Angle between the collimation axis and the horizon.
 SD : slope distance. The length of the direct line connecting two points 
 
 
-- *last updated Dec. 2025*, Thejasvi Beleyur
+- *last updated Sept 24 2026*, Thejasvi Beleyur
